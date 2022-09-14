@@ -1,0 +1,12 @@
+{
+  "name": "projeto-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desconto.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
