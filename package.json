@@ -1,12 +1,25 @@
 {
-  "name": "projeto-jest",
+  "name": "estudo-jest",
   "version": "1.0.0",
-  "description": "",
-  "main": "desconto.js",
+  "description": "Estudo inicial de Jest - turma 0222",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "jest"
+  ],
+  "author": "CEO",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "jest-html-reporter": "^3.5.0"
+  },
+  "jest": { 
+    "reporters": 
+    [ "default",
+    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report" }]
+                ]
+          } 
+  
 }
